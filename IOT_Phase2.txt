@@ -1,0 +1,24 @@
+﻿Phase 2: Innovation 
+            Smart Water Management is the activity of planning, developing, distributing and managing the use of water resources using an array of IoT technologies which are designed to increase transparency, and make more reasonable and sustainable usage of these water resources.
+1. Components Needed:
+      ★Arduino Uno
+      ★Ultrasonic Sensor (HC-SR04) for water level detection
+      ★Salinity Sensor (e.g., Gravity: Analog Electrical Conductivity Sensor)
+      ★pH Sensor (e.g., Gravity: Analog pH Sensor)
+      ★Jumper wires
+      ★Breadboard (optional)
+2.power supply unit
+          Smart Water has individual power supply products for all your system components including the tank sender, wireless active repeater, WiFi gateway, desk mount WiFi LCD keypad and the wall mount WiFi LCD keypad. Conveniently the 12VDC power supply has been designed to be compatible with both the tank sender and wireless active repeater.
+3. Uses of sensor:
+     ★It uses the LiquidCrystal library to control the LCD for displaying readings.
+     ★The Ultrasonic sensor measures the water level using the trig and echo pins.
+     ★Salinity and pH sensors are read through analog pins.
+     ★The readings are displayed on the LCD and printed to the Serial Monitor for debugging.
+     ★The loop continuously updates the readings every second.
+4. Display unit
+           As the water level continues to rise and reaches half the tank, Yellow LED will glow. When the water in the tank rises to full an alarm is made by the buzzer as an indication that the tank is full.
+
+  
+     
+     
+      
